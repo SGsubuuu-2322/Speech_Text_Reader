@@ -38,3 +38,51 @@ h1 {
 select:focus {
   outline: none;
 }
+
+.btn-toggle {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.text-box {
+  position: absolute;
+  width: 70%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #333;
+  color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  transition: all 1s ease-in-out;
+}
+
+.text-box select {
+  background-color: darksalmon;
+  color: #fff;
+  border: none;
+  height: 30px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.text-box textarea {
+  border: 1px solid #dadada;
+  color: #fff;
+  font-size: 16px;
+  height: 150px;
+  width: 100%;
+  padding: 8px;
+  margin: 15px 0;
+}
+
+.text-box .btn {
+  width: 100%;
+}
+
+.text-box .close {
+  float: right;
+  text-align: right;
+  cursor: pointer;
+}
