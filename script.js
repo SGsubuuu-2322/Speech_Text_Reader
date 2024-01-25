@@ -121,4 +121,9 @@ closeBtn.addEventListener("click", () =>
 
 voicesSelect.addEventListener("change", setVoice);
 
+readBtn.addEventListener("click", () => {
+  setTextMessage(textarea.value);
+  speakText();
+});
+
 getVoices();
